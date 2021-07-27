@@ -38,6 +38,8 @@
 }
 
 .five {
+  /* five is an image, so along with the grid placement it had to be assigned its own height. */
+  height: 17rem;
   grid-column: 2;
   grid-row: 3 / 5;
 }
@@ -62,5 +64,10 @@
 
 .sub-item {
   background-color: royalblue;
+  color: white;
+}
+
+.one {
+  background-color: blue;
   color: white;
 }

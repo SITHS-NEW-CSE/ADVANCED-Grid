@@ -3,7 +3,7 @@
   grid-template-columns: repeat(
     4,
     1fr
-  ); /* sets how many grid section columns will appear. this says that 4 sections will be created each taking up 1 evenly sized fraction (fr) of the container */
+  ); /* sets how many grid section columns will appear. this says that 4 sections will be created each taking up 1 evenly sized fraction (fr) of the container you can change the size of fr to change the amount of space a section will take up in a grid. */
   gap: 10px; /* the gap between grid sections */
   grid-auto-rows: minmax(
     100px,
